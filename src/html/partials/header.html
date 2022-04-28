@@ -1,17 +1,35 @@
 <header class="header">
   <div class="container">
-    <a href="./" aria-label="logo serwisu i link do strony głównej">
-      <img class="logo" src="./assets/images/logo-dark.svg" alt="GoIT logo" width="67" height="20" />
-    </a>
-    {% include 'components/nav-menu.html' %}
-    <button type="button" class="mobile-menu-btn" data-menu-btn aria-label="">
+    <div class="top-panel">
+      <a href="./" class="logo" aria-label="home link">
+        <img src="./assets/images/logo.png" class="logo" alt="{logo_alt}" width="85" height="23" />
+      </a>
+      {% include 'components/nav-menu.html' %}
+      <div class="buttons">
+        <button type="button" class="btn login_btn" data-menu-btn aria-label="">
+          {{buttons.log_in_btn}}
+        </button>
+
+        <button type="button" class="btn sign_btn" data-menu-btn aria-label="">
+          {{buttons.sign_up_btn}}
+        </button>
+      </div>
+    </div>
+
+    <div class="header-content">
+      <h1 class="header-title">{{ header.title }}</h1>
+      <p class="header-subtitle">{{ header.subtitle }}</p>
+      <button type="button" class="btn join_btn" data-menu-btn aria-label="">
+        {{buttons.join_btn}}
+      </button>
+    </div>
+  </div>
+</header>
+{% include 'components/mobile-menu.html' %}
+
+<!-- <button type="button" class="mobile-menu-btn" data-menu-btn aria-label="">
       <svg class="mobile-menu-svg" width="30" height="20">
         <use href="./assets/images/sprite.svg#icon-mobile-menu"></use>
       </svg>
     </button>
-    <button type="button" class="btn btn-modal" data-menu-btn aria-label="">
-      Modal
-    </button>
-  </div>
-</header>
-{% include 'components/mobile-menu.html' %}
+    <button type="button" class="btn btn-modal" data-menu-btn aria-label="">Modal</button> -->

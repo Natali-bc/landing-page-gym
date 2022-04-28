@@ -1,6 +1,6 @@
 .btn {
   display: inline-block;
-  padding: 18px 28px;
+  padding: 12px 30px;
 
   text-align: center;
   text-transform: uppercase;
@@ -9,8 +9,9 @@
   cursor: pointer;
   border: 1px solid transparent;
   border-radius: 5px;
+  font-size: 12px;
 
-  color: var(--white-txt-cl);
+  color: var(--secondary-txt-cl);
   background-color: var(--accent-cl);
 
   transition: color var(--fast) linear, background-color var(--fast) linear,
@@ -20,6 +21,6 @@
   &:focus {
     color: var(--accent-cl);
     border: 1px solid var(--accent-cl);
-    background-color: var(--white-bg);
+    background-color: var(--secondary-txt-cl);
   }
 }

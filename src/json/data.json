@@ -1,6 +1,6 @@
 {
   "page": {
-    "lang": "ru",
+    "lang": "en",
     "title": "",
     "description": "",
     "canonical": "",
@@ -14,24 +14,92 @@
   },
   "menu": [
     {
-      "title": "Menu item",
-      "link": "#id"
+      "title": "Home",
+      "link": "#home"
     },
     {
-      "title": "Menu item 2",
-      "link": "#id2"
+      "title": "About",
+      "link": "#about"
+    },
+    {
+      "title": "Workouts",
+      "link": "#workouts"
+    },
+    {
+      "title": "Pricing",
+      "link": "#pricing"
+    },
+    {
+      "title": "Community",
+      "link": "#community"
+    },
+    {
+      "title": "FAQ",
+      "link": "#faq"
     }
   ],
-  "socials": [
-    {
-      "title": "Menu item",
-      "link": "#id",
-      "icon": "icon-facebook"
-    },
-    {
-      "title": "Menu item 2",
-      "link": "#id2",
-      "icon": "icon-facebook"
-    }
-  ]
+  "logo_alt": "Logo",
+
+  "buttons": {
+    "join_btn": "JOIN NOW",
+    "sign_up_btn": "Sign up",
+    "log_in_btn": "LOG IN"
+  },
+
+  "header": {
+    "title": "Get the best part of your day <span class=\"text-accent\">– you fit here.</span>",
+    "subtitle": "We provide serious fitness but within a fun and friendly, safe space."
+  },
+  "about": {
+    "title": "Our mission",
+     "subtitle_list": [
+      "We are distinguished by our unsurpassed motivating atmosphere, knowledgeable staff, and premier exercise equipment, which supports our members in meeting their individual fitness goals.",
+      "The strength of our heart-felt identity is utilized to inspire every person that steps foot into our gyms to better themselves."
+    ]
+    
+
+  },
+  "program": {
+    "title": "Training programs"
+  },
+  "price": {
+    "title": "Pricing plan"
+  },
+  "community": {
+    "title": "Community"
+  },
+  "help": {
+    "title": "FAQ",
+    "items": [
+      {
+        "title": "How can I book a workout class? ",
+        "description": "Booking a workout class is simple for our members. Simply log into your Gymme account on our website and click book class button . You can book 3 days in advance at 9pm. You can cancel your class online by logging back in and click cancel booking"
+      },
+      {
+        "title": "Can I pay by cash for my membership?",
+        "link": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, impedit fugit? Dolor, id quia quis expedita esse modi eos distinctio ipsa ex, quibusdam dicta beatae architecto atque quaerat odio aperiam!"
+      },
+      {
+        "title": "What age do I need to be to join?",
+        "link": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias maxime dolores nemo perspiciatis sit corporis?"
+      },
+      {
+        "title": "Are there any lockers?",
+        "link": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis adipisci, doloribus, autem quaerat, pariatur repellendus cum deserunt dignissimos vero distinctio quas et cupiditate facere itaque."
+      },
+      {
+        "title": "How do I cancel my membership?",
+        "link": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum debitis sint repellat quis iusto doloribus impedit at placeat nostrum iure. Tempore voluptatibus corrupti dolorum illum atque quisquam tenetur rerum est perspiciatis facilis maxime amet sit, vel repellat optio deleniti assumenda distinctio porro praesentium accusamus nemo consequuntur hic! Vero, voluptatibus consectetur."
+      },
+      {
+        "title": "Is there water available at the gym?",
+        "link": "Booking a workout class is simple for our members. Simply log into your Gymme account on our website and click book class button . You can book 3 days in advance at 9pm. You can cancel your class online by logging back in and click cancel booking"
+      }
+    ]
+  },
+  "footer": {
+    "title": "Wanna join & have fun?",
+    "subtitle": "We’ll keep you updated on the things you need to know about Gymme. Nothing more, nothing less.",
+    "copyright": "All rights reserved. Gymme 2021"
+  }
 }

@@ -1,0 +1,18 @@
+.menu {
+  display: none;
+
+  @include mq(desktop) {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.menu-item:not(:last-child) {
+  @include mq(desktop) {
+    margin-right: 30px;
+  }
+}
+
+.menu-link {
+  color: var(--secondary-txt-cl);
+}
