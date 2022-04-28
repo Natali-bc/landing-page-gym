@@ -1,4 +1,4 @@
-# Starter kit
+# Starter
 
 ## Запуск сборки
 
